@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage
 from langgraph.graph import MessagesState, StateGraph,END
 
-from nodes import run_agent_reasoning, tool_node
+from node import run_agent_reasoning, tool_node
 
 load_dotenv()
 
